@@ -94,3 +94,11 @@ print(students[1]["grade"])
 for i in range(5):
     print("Hello World")
 
+# Page 29 for文3
+for i in range(5):
+    print(i)
+
+# Page 30 for文3
+fruits = ["apple", "banana", "cherry"]
+for i in fruits:
+    print(i)
