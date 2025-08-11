@@ -98,7 +98,20 @@ for i in range(5):
 for i in range(5):
     print(i)
 
-# Page 30 for文3
+# Page 30 for文4
 fruits = ["apple", "banana", "cherry"]
 for i in fruits:
+    print(i)
+
+# Page 31 for文5
+## break
+for i in range(5):
+    if i == 2:
+        break
+    print(i)
+
+## continue
+for i in range(5):
+    if i == 2:
+        continue
     print(i)
