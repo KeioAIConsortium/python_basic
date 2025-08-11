@@ -115,3 +115,10 @@ for i in range(5):
     if i == 2:
         continue
     print(i)
+
+# Page 36 input関数
+text = input()
+print("文字列", text, "が変数「text」に保存されました")
+
+num = int(input())
+print("整数", num, "が変数「num」に保存されました")
