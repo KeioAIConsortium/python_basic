@@ -41,7 +41,7 @@ print(fruit[2])
 # Page 14 リストの使用例
 scores = [85, 90, 100]
 total = scores[0] + scores[1] + scores[2]
-average = total / 3
+average = total / len(scores)
 print("Total:", total)
 print("Average:", average)
 
@@ -180,3 +180,11 @@ print(add(3, 4))
 def daikei(jotei, katei, takasa):
     return (jotei + katei) * takasa / 2
 print(daikei(6, 8, 10))
+
+# Page 45
+def average(array):
+    sum = 0
+    for i in array:
+        sum = sum + i
+    return sum / len(array)
+array([2, 3, 4])
