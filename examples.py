@@ -142,3 +142,41 @@ print("文字列", text, "が変数「text」に保存されました")
 
 num = int(input())
 print("整数", num, "が変数「num」に保存されました")
+
+# Page 40
+def add1(x):
+    result = x + 1
+    return x
+re = add1(3)
+print(re)
+
+# Page 41
+## without function
+x = 3
+x = x * 2
+x = x + 1
+print(x)
+
+x = 5
+x = x * 2
+x = x + 1
+print(x)
+
+## with function
+def calc(x):
+    x = x * 2
+    x = x + 1
+    print(x)
+
+calc(3)
+calc(5)
+
+# Page 42
+def add(x, y):
+    return x + y
+print(add(3, 4))
+
+# Page 43
+def daikei(jotei, katei, takasa):
+    return (jotei + katei) * takasa / 2
+print(daikei(6, 8, 10))
