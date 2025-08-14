@@ -116,6 +116,26 @@ for i in range(5):
         continue
     print(i)
 
+# Page 32 for quiz 
+## sum
+sum = 0
+for i in range(10):
+    sum = sum + i + 1
+print(sum)
+
+# Page 33
+for i in range(5):
+    print("Hello")
+
+# Page 34
+for i in range(10):
+    print(i)
+    if i == 2:
+        continue
+    elif i == 8:
+        break
+print(end)
+
 # Page 36 input関数
 text = input()
 print("文字列", text, "が変数「text」に保存されました")
