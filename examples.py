@@ -179,12 +179,14 @@ calc(5)
 # Page 42
 def add(x, y):
     return x + y
-print(add(3, 4))
+a = add(3,4)
+print(a)
 
 # Page 43
 def daikei(jotei, katei, takasa):
     return (jotei + katei) * takasa / 2
-print(daikei(6, 8, 10))
+b = daikei(6, 8, 10)
+print(b)
 
 # Page 45
 def average(array):
