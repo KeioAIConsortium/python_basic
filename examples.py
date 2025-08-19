@@ -95,7 +95,12 @@ for i in range(5):
     print("Hello World")
 
 # Page 29 for文3
+## 0始まり
 for i in range(5):
+    print(i)
+
+## 1始まり
+for i in range(1, 6):
     print(i)
 
 # Page 30 for文4
