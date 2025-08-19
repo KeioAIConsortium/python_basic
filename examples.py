@@ -151,7 +151,7 @@ print("整数", num, "が変数「num」に保存されました")
 # Page 40
 def add1(x):
     result = x + 1
-    return x
+    return result
 re = add1(3)
 print(re)
 
